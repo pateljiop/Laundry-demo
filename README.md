@@ -1,10 +1,13 @@
 <div align="center">
-  <img src="brand/hariom-mark.svg" width="100" alt="Hariom brand mark" />
-  <h1>Laundry Service Website Concept</h1>
-  <p><strong>Web Development Demo · Hariom</strong></p>
+  <img src="https://raw.githubusercontent.com/pateljiop/pateljiop/main/08_Banner_Cover.png" width="100%" alt="Hariom Builds — Code, Create, Automate" />
+  <p><strong>Hariom Builds</strong> · Code • Create • Automate</p>
 </div>
 
 ---
+
+# Laundry Service Website Concept
+
+<p><strong>Web Development Demo · Hariom Builds</strong></p>
 
 A responsive local-business website concept focused on service discovery, location information, mobile usability and enquiry flows.
 
@@ -18,4 +21,4 @@ This repository is a **portfolio/demo concept**. Business identity, contact deta
 - GitHub Pages compatible
 
 ### Branding
-Hariom branding uses the cyan/blue/red accent system and panda + headphones mascot concept shown in `brand/hariom-mark.svg`.
+This portfolio repository is presented under **Hariom Builds — Code • Create • Automate**. The official Hariom Builds brand assets are maintained in the `pateljiop/pateljiop` profile repository.
