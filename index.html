@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Manchester Laundry Center | Clean Clothes. Better Living.</title>
+<meta name="description" content="Manchester Laundry Center in Manchester, NH. Self-service laundry, wash & fold, pickup & delivery, convenient location and free parking.">
+<meta name="theme-color" content="#0a2b61">
+<style>
+:root{--blue:#1261d8;--deep:#071e43;--ink:#102442;--muted:#607089;--bg:#f4f8fd;--white:#fff;--line:#dbe6f2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--ink);background:#fff}a{text-decoration:none;color:inherit}img{max-width:100%;display:block}
+.top{background:var(--deep);color:#fff;padding:8px 5%;display:flex;justify-content:center;gap:28px;flex-wrap:wrap;font-size:12px;font-weight:800}.top a:hover{color:#7db2ff}
+nav{height:78px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 5%;position:sticky;top:0;z-index:50;box-shadow:0 4px 22px #061b3d14}
+.logo{display:flex;align-items:center;gap:10px;font-weight:1000;color:var(--deep);line-height:.9;font-size:21px}.logo-mark{width:38px;height:38px;border:3px solid var(--blue);border-radius:10px;display:grid;place-items:center;color:var(--blue);font-size:21px}.logo small{display:block;font-size:8px;letter-spacing:2.4px;color:var(--blue);margin-top:5px}.navlinks{display:flex;gap:27px;font-size:14px;font-weight:850}.navlinks a{position:relative}.navlinks a:after{content:"";position:absolute;left:0;bottom:-8px;width:0;height:2px;background:var(--blue);transition:.25s}.navlinks a:hover:after{width:100%}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 20px;border-radius:8px;font-weight:900;border:1px solid #cdd9e7;transition:.25s}.btn:hover{transform:translateY(-2px)}.primary{background:var(--blue);border-color:var(--blue);color:#fff}.dark{background:var(--deep);border-color:var(--deep);color:#fff}
+.hero{background:#fff}.hero-inner{max-width:1250px;margin:auto;min-height:575px;padding:0 5%;display:grid;grid-template-columns:.83fr 1.17fr;align-items:center}.hero-copy{padding:60px 0}.eyebrow{font-size:12px;font-weight:1000;letter-spacing:2px;color:var(--blue)}h1{font-size:clamp(48px,6vw,82px);line-height:.92;letter-spacing:-4px;margin:17px 0}.hero-copy h1 span{color:var(--blue)}.hero-copy p{font-size:18px;line-height:1.65;color:#53657d;max-width:550px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.hero-visual{height:575px;overflow:hidden}.hero-visual img{width:100%;height:100%;object-fit:cover;border-radius:24px 0 0 24px}
+.features{max-width:1170px;margin:-32px auto 0;position:relative;z-index:3;background:#fff;border-radius:18px;box-shadow:0 16px 42px #0a2c581c;display:grid;grid-template-columns:repeat(4,1fr);padding:9px}.feature{padding:21px 18px;display:grid;grid-template-columns:65px 1fr;gap:14px;align-items:center;border-right:1px solid var(--line)}.feature:last-child{border:0}.feature img{width:60px;height:60px;object-fit:contain}.feature b{display:block;font-size:15px}.feature span{display:block;color:var(--muted);font-size:12px;line-height:1.45;margin-top:5px}
+section{padding:88px 5%}.section-head{max-width:730px;margin:0 auto 42px;text-align:center}.section-head .ey{font-size:12px;font-weight:1000;letter-spacing:2px;color:var(--blue)}.section-head h2{font-size:44px;line-height:1;margin:10px 0}.section-head p{color:var(--muted);line-height:1.7}
+.services{background:var(--bg)}.service-grid{max-width:1170px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.service{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 8px 25px #0a2c5810;transition:.3s}.service:hover{transform:translateY(-7px);box-shadow:0 18px 35px #0a2c5820}.service img{width:100%;height:205px;object-fit:cover}.service-body{padding:22px}.service h3{margin:0 0 8px;font-size:21px}.service p{margin:0;color:var(--muted);line-height:1.6;font-size:14px}.service a{display:inline-block;color:var(--blue);font-weight:900;margin-top:16px;font-size:13px}
+.about-wrap{max-width:1170px;margin:auto;display:grid;grid-template-columns:.95fr 1.05fr;gap:55px;align-items:center}.about-img{border-radius:18px;overflow:hidden;box-shadow:0 15px 35px #0a2c581c}.about-img img{width:100%;height:430px;object-fit:cover}.about h2{font-size:45px;line-height:1;margin:10px 0 16px}.about p{color:var(--muted);line-height:1.75}.checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:23px}.check{background:#f5f9ff;border:1px solid var(--line);padding:14px;border-radius:10px;font-weight:800;font-size:13px}.check span{color:var(--blue);margin-right:6px}
+.gallery-section{background:var(--deep);color:#fff}.gallery-section .section-head p{color:#b8c9df}.gallery{max-width:1170px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.gallery-card{border-radius:15px;overflow:hidden;background:#0d315f;border:1px solid #ffffff22}.gallery-card img{width:100%;height:230px;object-fit:cover}.gallery-card b{display:block;padding:15px 17px}
+.contact{background:linear-gradient(130deg,#0861cf,#168bf0);color:#fff}.contact-wrap{max-width:1170px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.contact h2{font-size:50px;line-height:.98;margin:10px 0 17px}.contact p{color:#e6f2ff;line-height:1.7}.contact-details{margin:25px 0;display:grid;gap:12px}.contact-details a{font-weight:800}.contact .btn{background:#fff;color:var(--deep);border-color:#fff}.form{background:#fff;border-radius:16px;padding:28px;box-shadow:0 15px 40px #04285b35}.form input,.form select,.form textarea{width:100%;padding:14px 15px;margin:6px 0;border:1px solid #d5e0eb;border-radius:8px;font:inherit;color:var(--ink);outline:none}.form input:focus,.form select:focus,.form textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px #1261d815}.form textarea{min-height:115px;resize:vertical}.form button{width:100%;padding:15px;border:0;border-radius:8px;background:var(--blue);color:#fff;font-weight:1000;font-size:15px;margin-top:7px;cursor:pointer}
+footer{background:#041735;color:#b7c8dc;padding:30px 5%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px}.footer-brand{color:#fff;font-weight:900}
+@media(max-width:900px){.navlinks{display:none}.hero-inner{grid-template-columns:1fr;min-height:auto}.hero-copy{padding:50px 0 25px}.hero-visual{height:360px;margin:0 -5%}.hero-visual img{border-radius:0}.features{margin:0 12px;grid-template-columns:1fr 1fr}.feature{border-bottom:1px solid var(--line)}.feature:nth-child(2){border-right:0}.feature:nth-child(3),.feature:nth-child(4){border-bottom:0}.service-grid,.gallery{grid-template-columns:1fr 1fr}.about-wrap,.contact-wrap{grid-template-columns:1fr}.about-img img{height:330px}.contact h2{font-size:42px}}
+@media(max-width:560px){.top{gap:10px;font-size:10px}.top span:nth-child(2),.top span:nth-child(3){display:none}nav{height:68px}.logo{font-size:17px}.logo-mark{width:32px;height:32px}.nav-call{padding:11px 12px;font-size:12px}.hero-copy h1{letter-spacing:-2px}.hero-copy p{font-size:16px}.actions .btn{width:100%}.features{grid-template-columns:1fr}.feature{border-right:0!important;border-bottom:1px solid var(--line)!important}.feature:last-child{border-bottom:0!important}.service-grid,.gallery{grid-template-columns:1fr}.section-head h2,.about h2{font-size:37px}.contact h2{font-size:39px}.checks{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="top"><span>📍 129 Ferry St, Manchester, NH 03102</span><a href="tel:+16036277068">☎ (603) 627-7068</a><span>🅿 Free Parking</span></div>
+<nav>
+<a class="logo" href="#home"><span class="logo-mark">◎</span><span>MANCHESTER<small>LAUNDRY CENTER</small></span></a>
+<div class="navlinks"><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+<a class="btn primary nav-call" href="tel:+16036277068">☎ CALL NOW</a>
+</nav>
+
+<header class="hero" id="home"><div class="hero-inner">
+<div class="hero-copy"><div class="eyebrow">MANCHESTER, NEW HAMPSHIRE</div><h1>CLEAN CLOTHES.<br><span>BETTER LIVING.</span></h1><p>A clean, convenient laundry experience with modern machines, wash & fold service, pickup & delivery, and everything you need to make laundry day easier.</p><div class="actions"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=129+Ferry+St+Manchester+NH+03102">📍 OUR LOCATION</a><a class="btn dark" href="tel:+16036277068">☎ CALL NOW</a></div></div>
+<div class="hero-visual"><img src="hero-laundromat.jpg" alt="Modern laundromat interior"></div>
+</div></header>
+
+<div class="features">
+<div class="feature"><img src="machine.png" alt=""><div><b>Modern Machines</b><span>High-efficiency washers and dryers.</span></div></div>
+<div class="feature"><img src="wash-fold.png" alt=""><div><b>Wash & Fold</b><span>Let us do the work for you.</span></div></div>
+<div class="feature"><img src="delivery.png" alt=""><div><b>Pickup & Delivery</b><span>Convenient service options.</span></div></div>
+<div class="feature"><img src="parking.png" alt=""><div><b>Free Parking</b><span>Convenient on-site parking.</span></div></div>
+</div>
+
+<section class="services" id="services"><div class="section-head"><div class="ey">OUR SERVICES</div><h2>LAUNDRY MADE EASY.</h2><p>Clear service information, easy navigation and direct contact — designed for customers on mobile and desktop.</p></div>
+<div class="service-grid">
+<article class="service"><img src="self-service.jpg" alt="Self service laundry"><div class="service-body"><h3>Self-Service Laundry</h3><p>Clean, convenient machines for customers who prefer to handle their own laundry.</p><a href="#contact">ASK ABOUT MACHINES →</a></div></article>
+<article class="service"><img src="wash-fold.jpg" alt="Wash and fold laundry"><div class="service-body"><h3>Wash & Fold</h3><p>Drop off your laundry and get it back clean, dry and neatly folded.</p><a href="#contact">ASK ABOUT WASH & FOLD →</a></div></article>
+<article class="service"><img src="pickup-delivery.jpg" alt="Pickup and delivery service"><div class="service-body"><h3>Pickup & Delivery</h3><p>Ask about available pickup and delivery options for a more convenient laundry routine.</p><a href="#contact">ASK ABOUT DELIVERY →</a></div></article>
+</div></section>
+
+<section id="about"><div class="about-wrap"><div class="about-img"><img src="laundromat-interior.jpg" alt="Manchester Laundry Center interior"></div><div class="about"><div><div class="eyebrow">WHY CHOOSE US</div><h2>A BETTER WAY TO DO LAUNDRY.</h2><p>Manchester Laundry Center is a local laundry destination in Manchester, New Hampshire. The website is designed to make the information customers need — services, location, contact and convenience — easy to find.</p><div class="checks"><div class="check"><span>✓</span>Modern machines</div><div class="check"><span>✓</span>Wash & fold</div><div class="check"><span>✓</span>Pickup & delivery</div><div class="check"><span>✓</span>Free parking</div></div></div></div></div></section>
+
+<section class="gallery-section" id="gallery"><div class="section-head"><div class="ey" style="color:#72b2ff">OUR SPACE</div><h2>SEE THE EXPERIENCE.</h2><p>A clean visual section for approved business photos. Replace concept images with owner-approved originals before final launch.</p></div><div class="gallery">
+<article class="gallery-card"><img src="laundromat-interior.jpg" alt="Laundry machines"><b>Modern Laundry Area</b></article>
+<article class="gallery-card"><img src="laundry-folded.jpg" alt="Folded laundry"><b>Fresh & Folded</b></article>
+<article class="gallery-card"><img src="pickup-van.jpg" alt="Laundry pickup van"><b>Pickup & Delivery</b></article>
+</div></section>
+
+<section class="contact" id="contact"><div class="contact-wrap"><div><div class="ey" style="color:#c4e2ff">GET IN TOUCH</div><h2>LET'S MAKE LAUNDRY EASIER.</h2><p>For current hours, pricing, service availability or general questions, contact Manchester Laundry Center directly.</p><div class="contact-details"><a href="https://www.google.com/maps/search/?api=1&query=129+Ferry+St+Manchester+NH+03102">📍 129 Ferry St, Manchester, NH 03102</a><a href="tel:+16036277068">☎ (603) 627-7068</a><a href="mailto:info@manchester-laundrycenter.com">✉ info@manchester-laundrycenter.com</a></div><a class="btn" href="https://www.google.com/maps/search/?api=1&query=129+Ferry+St+Manchester+NH+03102">GET DIRECTIONS →</a></div>
+<form class="form" onsubmit="event.preventDefault();alert('Demo form — connect this form to the business email/CRM before launch.');"><input required placeholder="Your Name"><input required type="email" placeholder="Email Address"><input type="tel" placeholder="Phone Number"><select><option>What do you need?</option><option>Self-Service</option><option>Wash & Fold</option><option>Pickup & Delivery</option><option>General Question</option></select><textarea placeholder="Tell us how we can help"></textarea><button>SEND MESSAGE</button></form>
+</div></section>
+
+<footer><span class="footer-brand">MANCHESTER LAUNDRY CENTER</span><span>129 Ferry St, Manchester, NH 03102 • (603) 627-7068</span><span>© 2026 Website Redesign Concept</span></footer>
+</body></html>
