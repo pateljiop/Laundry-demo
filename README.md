@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="brand/hariom-mark.svg" width="100" alt="Hariom Patel brand mark" />
+  <img src="brand/hariom-mark.svg" width="100" alt="Hariom brand mark" />
   <h1>Laundry Service Website Concept</h1>
-  <p><strong>Freelance Web Development Demo · Hariom Patel</strong></p>
+  <p><strong>Web Development Demo · Hariom</strong></p>
 </div>
 
 ---
@@ -18,4 +18,4 @@ This repository is a **portfolio/demo concept**. Business identity, contact deta
 - GitHub Pages compatible
 
 ### Branding
-Hariom Patel freelance branding uses the cyan/blue/red accent system and panda + headphones mascot concept shown in `brand/hariom-mark.svg`.
+Hariom branding uses the cyan/blue/red accent system and panda + headphones mascot concept shown in `brand/hariom-mark.svg`.
